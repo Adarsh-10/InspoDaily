@@ -1,0 +1,84 @@
+* {
+  background-color: #f8e16f;
+}
+
+/* Navbar Styling */
+
+.nav--container {
+  display: flex;
+  justify-content: right;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  font-family: 'Courier Prime', monospace;
+}
+
+.nav--item--name {
+  margin-right: auto;
+}
+
+.nav--item--name:hover span {
+  display: none
+}
+
+.nav--item--name:hover:before {
+  content: "😎"
+}
+
+.nav--container > div {
+  padding: 20px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.nav--container > div:hover {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Titan One', cursive;
+}
+
+
+/* Title Styling */
+
+.title--styling {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: #de324c;
+}
+
+/* Body Styling */
+
+.main--styling {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.quote--styling {
+  font-family: 'Poppins', sans-serif;
+  color: #369acc;
+
+}
+
+.quote--styling > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.author--styling {
+  font-family: 'Quicksand', sans-serif;
+  color: #9656a2;
+  font-weight: 1000;
+}
+
+.button--styling {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  color: white;
+  background-color: #003f5c;
+  font-weight: bold;
+  border: none;
+}
