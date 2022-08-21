@@ -1,6 +1,6 @@
 export default function Title() {
     return (
-        <nav className="nav--styling">
+        <nav>
             <h1 className="title--styling">⭐️ Motivational Quotes! ⭐️</h1>
         </nav>
     )
